@@ -44,6 +44,10 @@ py main.py -f COLUMNA_A_ORDERNAR, ej: py main.py -f metascore
 
 py main.py -r 30 -f metascore
 
+============ DOCKER  ==============
+docker build -t docker-walmart .
+docker images
+docker run -v D:\output:/output docker-walmart python main.py
 
 
 
